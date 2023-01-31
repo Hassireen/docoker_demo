@@ -10,5 +10,13 @@ public class HelloController {
 	public String helloWorld() {
 		return "Hello World";
 	}
+	@RequestMapping("/name")
+	public String name() {
+		return "my name is hassireen";
+	}
+	@RequestMapping("/age")
+	public int age() {
+		return 22;
+	}
 
 }
